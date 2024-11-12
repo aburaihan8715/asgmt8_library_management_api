@@ -6,6 +6,10 @@ import { BookRoutes } from './modules/Book/book.route';
 import globalErrorHandler from './middlewares/globalErrorHandler';
 import notFoundRouteHandler from './middlewares/notFoundRouteHandler';
 import { MemberRoutes } from './modules/Member/member.route';
+import {
+  BorrowRoutes,
+  ReturnRoutes,
+} from './modules/BorrowRecord/borrowRecord.route';
 
 const app: Application = express();
 
@@ -29,6 +33,8 @@ app.get('/', (req: Request, res: Response) => {
 // ROUTES
 app.use('/api/books', BookRoutes);
 app.use('/api/members', MemberRoutes);
+app.use('/api/borrow', BorrowRoutes);
+app.use('/api/return', ReturnRoutes);
 
 // NOT FOUND ROUTE HANDLER
 app.use(notFoundRouteHandler);

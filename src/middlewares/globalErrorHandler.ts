@@ -28,7 +28,6 @@ const globalErrorHandler = (
     success,
     status,
     message,
-    error,
   });
 };
 
