@@ -17,3 +17,13 @@ model Book {
 
   @@map("books")
 }
+
+model Member {
+  memberId       String   @id @default(uuid())
+  name           String   @unique
+  email          String
+  phone          String
+  membershipDate DateTime
+
+  @@map("members")
+}

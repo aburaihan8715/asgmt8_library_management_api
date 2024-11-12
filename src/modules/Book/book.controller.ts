@@ -1,4 +1,3 @@
-import { RequestHandler } from 'express';
 import { BookService } from './book.service';
 import httpStatus from 'http-status';
 import catchAsync from '../../utils/catchAsync';
