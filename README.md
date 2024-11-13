@@ -2,7 +2,7 @@
 
 ## Live link server:
 
-https://asgmt8-library-management-api.vercel.app/
+https://asgmt8-library-management-api.vercel.app
 
 ## Github link server:
 
@@ -47,12 +47,17 @@ https://github.com/aburaihan8715/asgmt8_library_management_api
 - /api/borrow/overdue(GET)
 - /api/return(POST)
 
+## Deploy on:
+
+- supabase
+
 ## Scripts
 
 ```js
-  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-  "start": "node ./dist/server.js",
-  "build": "tsc",
+    "postinstall": "prisma generate",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "prod": "NODE_ENV=production node ./dist/server.js",
+    "build": "tsc"
 ```
 
 <p>======end=======</p>
