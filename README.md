@@ -2,11 +2,9 @@
 
 ## Live link server:
 
-https://asgmt6-gardening-tips-and-advice-api.vercel.app
-
 ## Github link server:
 
-https://github.com/aburaihan8715/asgmt6_gardening_tips_and_advice_api
+https://github.com/aburaihan8715/asgmt8_library_management_api
 
 ## Technologies used:
 
