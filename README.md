@@ -2,6 +2,8 @@
 
 ## Live link server:
 
+https://asgmt8-library-management-api.vercel.app/
+
 ## Github link server:
 
 https://github.com/aburaihan8715/asgmt8_library_management_api
